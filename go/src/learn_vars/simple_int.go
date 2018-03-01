@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var age int // declare age variable as an integer
+	var age int = 75 // declare age with initial value of 75
 	fmt.Println("declared age int and its value is ", age)
 	age = 29 // assign value of 29 to age
 	fmt.Println("age now has value of", age)
