@@ -1,10 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
-	// declare our initial variables with their initial values
-	name, age, height := "sugar monster", 34, 2
-
-	fmt.Println("The", name, "is", age, " years old and", height, " meters tall")
+	a, b := 145.8, 432.8
+	c := math.Min(a, b)
+	fmt.Println("min value is", c)
 }
